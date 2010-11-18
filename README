@@ -1,1 +1,6 @@
-test
+SimpleTweener
+-------------
+C++ tweening engine (works well with OpenFrameworks and cinder).
+- Works with all Robber Penner easing equations. (included)
+- You can use repeat modes like LOOP and BACK_AND_FORTH.
+- You can add several teens to the same variable and they won't overwrite each other, allowing you to "layer" tweens.
