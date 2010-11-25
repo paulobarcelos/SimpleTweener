@@ -1,0 +1,52 @@
+<install>
+
+	<version>0.1</version>
+	<author>Paulo Barcelos</author>
+	<url></url>
+    
+    <requires>
+    </requires>
+		
+	<add>	
+		<src>
+			<folder name="addons/SimpleTweener/src">			
+				<file>../../../addons/SimpleTweener/src/SimpleTweener.h</file>
+				<file>../../../addons/SimpleTweener/src/SimpleTweener.cpp</file>
+			</folder>
+            <folder name="addons/SimpleTweener/src/PennerEasing">
+                <file>../../../addons/SimpleTweener/src/PennerEasing/PennerEasing.h</file>	
+				<file>../../../addons/SimpleTweener/src/PennerEasing/Back.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Back.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Bounce.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Bounce.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Circ.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Circ.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Cubic.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Cubic.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Elastic.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Elastic.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Expo.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Expo.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Linear.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Linear.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Quad.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Quad.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Quart.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Quart.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Quint.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Quint.cpp</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Sine.h</file>
+                <file>../../../addons/SimpleTweener/src/PennerEasing/Sin.cpp</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/SimpleTweener/src</path>
+            <path>../../../addons/SimpleTweener/src/PennerEasing</path>
+		</include>
+		
+		<link>
+		</link>
+	</add>
+	
+</install>
